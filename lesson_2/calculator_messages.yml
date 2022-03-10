@@ -1,0 +1,23 @@
+en:
+
+  welcome: "Welcome to Calculator! Enter your name:"
+  valid_name: "Make sure to enter a valid name."
+  hi_name: "Hi, #{name}!"
+  enter_number: "Please enter any number:"
+  invalid_number: "Hm.. Looks like that wasn't a valid number. Please try again."
+  operator_prompt: "<<-MSG
+	What operation would you like to perform?
+	1) add
+	2) subtract
+	3) multiply
+	4) divide
+	MSG"
+  invalid_operator: "That is not a valid operator. Please select from 1-4:"
+  operant_in_action: "#{operation_to_message(operator)} the two numbers..."
+  result: "The result is #{result}"
+ 
+ es:
+  welcome: "Beinvenido a la calculadora! Entre su nombre:"
+  valid_name: "Asegurese de entrar un nombre valido." 
+
+  # ... rest of file omitted for brevity
